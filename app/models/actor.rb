@@ -7,7 +7,6 @@ class Actor < ActiveRecord::Base
   end
   
   def list_roles
-    self.characters.first.name
-    binding.pry
+    "#{self.characters.first.name} - #{self.shows.first.name}"
   end
 end
