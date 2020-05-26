@@ -3,7 +3,7 @@ class Show < ActiveRecord::Base
   has_many :characters
   
   def actors_list
-    self.actor
+    self.
     binding.pry
   end
 end
